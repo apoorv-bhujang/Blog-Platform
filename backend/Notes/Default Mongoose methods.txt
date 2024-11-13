@@ -1,0 +1,25 @@
+------------------------------------------------
+List of Default Functions Provided by Mongoose
+------------------------------------------------
+
+When you create a model (which represents a table in MongoDB when using Mongoose), 
+you get several default functions (methods) provided by Mongoose. 
+These methods are typically accessible on the model object returned by mongoose.model() function. 
+Here are some of the common default methods:
+
+find(): Finds all documents that match the query parameters.
+findById(): Finds a single document by its _id.
+findOne(): Finds a single document that matches the query parameters.
+findByIdAndUpdate(): Finds a document by its _id and updates it.
+findByIdAndRemove(): Finds a document by its _id and removes it.
+create(): Creates a new document instance and saves it to the database.
+save(): Saves a document instance to the database.
+updateOne(): Updates a single document that matches the query parameters.
+updateMany(): Updates multiple documents that match the query parameters.
+deleteOne(): Deletes a single document that matches the query parameters.
+deleteMany(): Deletes multiple documents that match the query parameters.
+countDocuments(): Returns the count of documents that match the query parameters.
+aggregate(): Performs aggregation operations on the model's collection.
+
+
+These methods are available by default on a Mongoose model object and allow you to interact with MongoDB collections easily.
